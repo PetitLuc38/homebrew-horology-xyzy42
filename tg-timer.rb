@@ -21,10 +21,10 @@ class TgTimer < Formula
     system "./configure"
     system "make"
     bin.install "tg-timer"
-    man1.install "docs/tg-timer"
+    man1.install "docs/tg-timer.1"
   end
 
   test do
-    system "man", "tg-timer.1"
+    system "man", "tg-timer"
   end
 end
