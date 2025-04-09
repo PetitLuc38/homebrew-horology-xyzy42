@@ -25,6 +25,6 @@ class TgTimer < Formula
   end
 
   test do
-    system "man", "tg-timer"
+    system "man", "tg-timer.1"
   end
 end
