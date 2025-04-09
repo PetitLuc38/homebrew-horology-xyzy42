@@ -20,8 +20,8 @@ class TgTimer < Formula
     system "./autogen.sh"
     system "./configure"
     system "make"
-    bin.install "tg-timer-6.1"
-    man1.install "docs/tg-timer-6.1.1"
+    bin.install "tg-timer"
+    man1.install "docs/tg-timer"
   end
 
   test do
